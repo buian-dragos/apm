@@ -1,0 +1,644 @@
+-----ExeStack
+MyStack{
+	(string varf;(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))))
+	string varf
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))))
+}
+-----SymTable
+MyDictionary{
+	varf: 
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))
+	varf=ValueExp{e=test.in}
+}
+-----SymTable
+MyDictionary{
+	varf: 
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))
+	openRFile(exp=VarExp{id='varf'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))
+	int varc
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))
+	ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc')
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 15
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))
+	print(VarExp{id='varc'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 15
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 15
+}
+-----Output
+MyList{
+	15
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))
+	ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc')
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 15
+}
+-----Output
+MyList{
+	15
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 50
+}
+-----Output
+MyList{
+	15
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	closeRFile(expression=VarExp{id='varf'})
+	print(VarExp{id='varc'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 50
+}
+-----Output
+MyList{
+	15
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	closeRFile(expression=VarExp{id='varf'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 50
+}
+-----Output
+MyList{
+	15
+	50
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 50
+}
+-----Output
+MyList{
+	15
+	50
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(string varf;(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))))
+	string varf
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(varf=ValueExp{e=test.in};(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))))
+}
+-----SymTable
+MyDictionary{
+	varf: 
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))
+	varf=ValueExp{e=test.in}
+}
+-----SymTable
+MyDictionary{
+	varf: 
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(openRFile(exp=VarExp{id='varf'});(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))
+	openRFile(exp=VarExp{id='varf'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+
+
+-----ExeStack
+MyStack{
+	(int varc;(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))
+	int varc
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))
+	ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc')
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))
+	print(VarExp{id='varc'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc');(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'})))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))
+	ReadFileStatement(expression=VarExp{id='varf'}, variable_name=varc')
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	(print(VarExp{id='varc'});closeRFile(expression=VarExp{id='varf'}))
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	closeRFile(expression=VarExp{id='varf'})
+	print(VarExp{id='varc'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+	closeRFile(expression=VarExp{id='varf'})
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+	0
+}
+-----FileTable
+MyFileTable{
+	test.in: java.io.BufferedReader@bebdb06
+}
+
+
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	varf: test.in
+	varc: 0
+}
+-----Output
+MyList{
+	0
+	0
+}
+-----FileTable
+MyFileTable{
+}
+
+
