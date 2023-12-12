@@ -1,0 +1,1010 @@
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'})))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))
+	v=ValueExp{e=4}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+	0
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'})))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=4};((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))
+	v=ValueExp{e=4}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}));print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 4
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 3
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2})
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+	v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}
+}
+-----SymTable
+MyDictionary{
+	v: 1
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(while(RelationExp{firstExpression=VarExp{id='v'}, secondExpression=ValueExp{e=0}, intOperand=3})(print(VarExp{id='v'});v=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+	4
+	3
+	2
+	1
+	0
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
