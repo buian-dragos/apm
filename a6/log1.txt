@@ -1,0 +1,764 @@
+-----ID= 1
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=2};print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=2};print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=2};print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(int v;(v=ValueExp{e=2};print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 1
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+

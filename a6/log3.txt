@@ -1,0 +1,608 @@
+-----ExeStack
+MyStack{
+	(boolean a;(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+	boolean a
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+	int v
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+	a=ValueExp{e=true}
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(boolean a;(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))))
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+	boolean a
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+	boolean a
+}
+-----SymTable
+MyDictionary{
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(int v;(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))))
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+	int v
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+	int v
+}
+-----SymTable
+MyDictionary{
+	a: false
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	(a=ValueExp{e=true};((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'})))
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+	a=ValueExp{e=true}
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+	a=ValueExp{e=true}
+}
+-----SymTable
+MyDictionary{
+	a: false
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	((IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}));print(VarExp{id='v'}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	(IF(VarExp{id='a'}) THEN(v=ValueExp{e=2})ELSE(v=ValueExp{e=3}))
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 0
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+	print(VarExp{id='v'})
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 2
+}
+-----Output
+MyList{
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
+-----ID= 3
+-----ExeStack
+MyStack{
+}
+-----SymTable
+MyDictionary{
+	a: true
+	v: 2
+}
+-----Output
+MyList{
+	2
+}
+-----FileTable
+MyFileTable{
+}
+-----Heap
+{}
+
+
