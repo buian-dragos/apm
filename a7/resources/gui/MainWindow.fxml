@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="626.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainWindow">
+    <TextField fx:id="numberPrgStates" prefHeight="69.0" prefWidth="578.0" />
+    <TableView fx:id="heapTableView">
+        <columns>
+            <TableColumn fx:id="addressColumn" text="Address" />
+            <TableColumn fx:id="valueColumn" text="Value" />
+        </columns>
+    </TableView>
+    <ListView fx:id="outListView" />
+    <ListView fx:id="fileListView" />
+    <ListView fx:id="identifiersPrgState" onMouseClicked="#handleIdSelection" />
+    <TableView fx:id="symTableView">
+        <columns>
+            <TableColumn fx:id="varNameColumn" text="VarName" />
+            <TableColumn fx:id="varValueColumn" text="Value" />
+        </columns>
+    </TableView>
+    <ListView fx:id="exeStackView" />
+    <Button fx:id="runOneStep" onAction="#handleRunOneStep" text="Run One Step" />
+</VBox>
